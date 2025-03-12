@@ -6,12 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 s3_client = boto3.client("s3")
-
-bucket_name = "semantic-search-es8"
-image_folder = "photos_for_semantic_search_poc/"
-alt_text_folder = "celeb_alt_text_for_photos_semantic_search"
-metadata_folder = "photos_metadata_for_semantic_search_poc/"
-
 bucket_name = os.getenv("bucket_name")
 image_folder = os.getenv("image_folder")
 alt_text_folder = os.getenv("alt_text_folder")
