@@ -1,0 +1,14 @@
+numpy
+nltk
+spacy
+requests
+matplotlib
+seaborn
+networkx
+boto3
+python-dotenv
+pandas
+ipykernel
+ipywidgets
+jupyter
+tqdm
